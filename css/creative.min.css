@@ -96,7 +96,8 @@ body {
 
 #mainNav {
     border-color: rgba(34, 34, 34, .05);
-    background-color: #fff; //
+    background-color: #222 !important;
+    color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
@@ -111,7 +112,7 @@ body {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #261540
+    color: #fff
 }
 
 #mainNav .navbar-toggle {
@@ -125,15 +126,15 @@ body {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #222
+    color: #fff
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #261540
+    color: #fff
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color: #261540 !important;
+    color: #fff !important;
     background-color: transparent
 }
 
@@ -165,24 +166,25 @@ body {
 
     #mainNav.navbar-shrink {
         border-color: rgba(34, 34, 34, .05);
-        background-color: #fff //
+        background-color: #222;
+        color: white
     }
 
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 16px;
-        color: #261540
+        color: #fff
     }
 
     #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-        color: #261540
+        color: #fff
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: #222
+        color: #fff
     }
 
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-        color: #261540
+        color: #fff
     }
 }
 
@@ -191,7 +193,7 @@ header.masthead {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #e6a891;
     background-image: url(../img/march8.jpeg);
     background-position: center;
     -webkit-background-size: cover;
@@ -203,12 +205,12 @@ header.masthead {
 header.masthead .header-content {
     position: relative;
     width: 100%;
-    padding: 150px 15px 100px;
+    padding: 100px 0 50px 0;
     text-align: center
 }
 
 header.masthead .header-content .header-content-inner h1 {
-    font-size: 30px;
+    font-size: 13px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
@@ -234,7 +236,7 @@ header.masthead .header-content .header-content-inner p {
 
     header.masthead .header-content {
         position: absolute;
-        top: 50%;
+        top: 23%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -438,7 +440,7 @@ header.masthead .header-content .header-content-inner p {
 }
 
 .btn-primary .badge {
-    color: #261540;
+    color: #fff;
     background-color: #fff
 }
 
