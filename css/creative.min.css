@@ -19,7 +19,7 @@ body {
 hr {
     max-width: 50px;
     border-width: 3px;
-    border-color: #f05f40
+    border-color: #fff
 }
 
 hr.light {
@@ -48,12 +48,15 @@ p {
 }
 
 .bg-primary {
-    background: linear-gradient(50deg, #0e0639, #f4876c) !important
+
+    background: linear-gradient(50deg, #c21823, #e4a2a3) !important
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222 !important
+    color: #222;
+    background-color: #fff !important;
+    border-top: groove 6px #dc143c;
+
 }
 
 .text-faded {
@@ -107,7 +110,7 @@ body {
 #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #f05f40;
+    color: #e9b7b6;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
@@ -195,7 +198,7 @@ header.masthead {
     min-height: auto;
     text-align: center;
     color: #e6a891;
-    background-image: url(../img/march8.jpeg);
+    background-image: url(../img/valentine.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,6 +216,7 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content .header-content-inner h1 {
+    width: 75%;
     font-size: 13px;
     font-weight: 700;
     margin-top: 0;
@@ -222,7 +226,15 @@ header.masthead .header-content .header-content-inner h1 {
     text-shadow: 7px 1px 15px black;
     text-transform: uppercase
 }
-
+header.masthead .header-content .header-content-inner h3 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    background: floralwhite;
+    color: maroon;
+    padding: 10px;
+    text-shadow: 1px 1px 12px #f758a1;
+}
 header.masthead .header-content .header-content-inner hr {
     margin: 30px auto
 }
@@ -244,7 +256,7 @@ header.masthead .header-content .header-content-inner p {
     header.masthead .header-content {
         text-align: -webkit-center;
         position: absolute;
-        top: 23%;
+        top: 40%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
