@@ -48,14 +48,22 @@ p {
 }
 
 .bg-primary {
-    background: linear-gradient(50deg, #0e0639, #f4876c) !important
+    background: linear-gradient(50deg, #000000, #dc143c) !important
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222 !important
+    /*color: #fff;*/
+    /*background-color: #222 !important*/
+    border-top: groove 6px #dc143c;
+    color: black;
+    background-color: white !important
 }
-
+.bg-dark p {
+    color: black
+}
+.bg-dark h2 {
+    color: black
+}
 .text-faded {
     color: rgba(255, 255, 255, .7)
 }
@@ -107,7 +115,7 @@ body {
 #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #f05f40;
+    color: #fff;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
@@ -149,7 +157,7 @@ body {
     }
 
     #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, .7)
+        color: #fff
     }
 
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -192,9 +200,11 @@ header.masthead {
     position: relative;
     width: 100%;
     min-height: auto;
+    border-bottom: groove 6px #dc143c;
     text-align: center;
-    color: #e6a891;
-    background-image: url(../img/march8.jpeg);
+    color: #fff;
+    text-shadow: 7px 3px 15px black;
+    background-image: url(../img/patrick1.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -203,6 +213,7 @@ header.masthead {
 }
 
 header.masthead .header-content {
+    text-align: -webkit-center;
     position: relative;
     width: 100%;
     padding: 100px 0 50px 0;
@@ -214,6 +225,7 @@ header.masthead .header-content .header-content-inner h1 {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
+    background: crimson;
     text-transform: uppercase
 }
 
@@ -223,21 +235,23 @@ header.masthead .header-content .header-content-inner hr {
 
 header.masthead .header-content .header-content-inner p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 50px;
-    color: rgba(255, 255, 255, .7)
+    color: rgba(254, 254, 254, .9)
 }
 
 @media (min-width: 768px) {
     header.masthead {
         height: 100%;
         min-height: 600px
+        border-bottom: groove 6px #dc143c
     }
 
     header.masthead .header-content {
         position: absolute;
-        top: 23%;
+        top: 50%;
         padding: 0 50px;
+        text-align: -webkit-center;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%)
