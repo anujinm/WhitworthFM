@@ -189,6 +189,7 @@ body {
 }
 
 header.masthead {
+    border-bottom: groove 6px #dc143c;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -203,6 +204,8 @@ header.masthead {
 }
 
 header.masthead .header-content {
+    /*border-bottom: groove 6px #dc143c;*/
+    text-align: -webkit-center !important;
     position: relative;
     width: 100%;
     padding: 100px 0 50px 0;
@@ -214,6 +217,9 @@ header.masthead .header-content .header-content-inner h1 {
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
+    background: maroon;
+    color: white;
+    text-shadow: 7px 1px 15px black;
     text-transform: uppercase
 }
 
@@ -230,11 +236,13 @@ header.masthead .header-content .header-content-inner p {
 
 @media (min-width: 768px) {
     header.masthead {
+        border-bottom: groove 6px maroon;
         height: 100%;
         min-height: 600px
     }
 
     header.masthead .header-content {
+        text-align: -webkit-center;
         position: absolute;
         top: 23%;
         padding: 0 50px;
